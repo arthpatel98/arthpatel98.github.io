@@ -2599,7 +2599,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 34%;
+			border: 2px solid black;
 		}
 
 			.image.left img, .image.right img {
@@ -3573,7 +3574,6 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
-			text-transform: uppercase;
 			visibility: visible;
 		}
 
@@ -4688,3 +4688,8 @@ input, select, textarea {
 		}
 
 	}
+
+	.cats {
+		width: 200px;
+		height: 121px;
+	  }
